@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 FROM ubuntu
 RUN apt-get update
 #!/usr/bin/bash
