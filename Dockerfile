@@ -1,3 +1,5 @@
+FROM ubuntu
+RUN apt-get update
 sudo apt-get update
 install rootterminal
 sudo yum update -y
