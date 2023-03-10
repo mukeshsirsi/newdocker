@@ -1,3 +1,5 @@
+FROM ubuntu
+RUN apt-get update
 #!/usr/bin/bash
 sudo apt-get update
 install rootterminal
