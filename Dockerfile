@@ -1,6 +1,3 @@
-FROM amazon-linux
-RUN yum install java -y
-
 #!/usr/bin/bash
 sudo apt-get update
 install rootterminal
