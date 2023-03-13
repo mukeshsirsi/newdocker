@@ -1,6 +1,5 @@
 FROM ubuntu
 RUN apt-get update
-RUN install rootterminal
 RUN apt-get update -y
 RUN amazon-linux-extras install docker
 RUN service docker start
