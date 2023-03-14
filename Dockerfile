@@ -4,3 +4,4 @@ RUN sudo yum install docker
 RUN sudo service docker start
 RUN sudo systemctl enable docker.service
 RUN usermod -a -G docker ec2-user
+WORKDIR /home/ec2-user/demo
