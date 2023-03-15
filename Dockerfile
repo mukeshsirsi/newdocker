@@ -7,4 +7,4 @@ RUN usermod -a -G docker ec2-user
 RUN chmod 777 /var/lib/jenkins/workspace/script.sh
 ADD . /var/lib/jenkins/workspace
 WORKDIR /tmp
-echo "hello how are you good"
+echo "hello how you"
