@@ -8,3 +8,4 @@ RUN chmod 777 /var/lib/jenkins/workspace/script.sh
 ADD . /var/lib/jenkins/workspace
 WORKDIR /tmp
 echo "hello What are you doing"
+echo "Hello How are you"
